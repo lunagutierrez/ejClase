@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario</title>
+
+  <link rel="icon" href="../../assets/img/egg-solid.svg">
+</head>
+
+<body>
+  <header>
+    <a href="../../index.html"> Index </a>
+
+    <form name="datosBasic" action="../../index.html" method="">
+
+      <h1><img src="../../assets/img/undraw_coffee_time_e8cw.svg" width=100> Datos básicos</h1>
+
+      <label for="perfil">Describa su perfil</label><br>
+      <textarea id="perfil" rows="10" cols="50" name="perfil"></textarea><br><br>
+
+      <label for="tipoId">Tipo de id</label>
+      <select id="tipoId" name="tipoId">
+        <option value="0" name="tipoId"> </option>
+        <option value="CC"> Cédula de Ciudadanía</option>
+        <option value="TI"> Tarjeta de Identidad</option>
+        <option value="RN"> Registro de Nacimiento</option>
+      </select>
+      <br><br>
+
+      <label for="ciudad">En qué ciudad vives?</label>
+      <select name="ciudad">
+        <option selected value="0"> Elige una ciudad</option>
+        <optgroup label="Cundinamarca">
+          <option value="1">Bogotá</option>
+          <option value="2">Chia</option>
+        </optgroup>
+        <optgroup label="Antioquia">
+          <option value="4">Medellin</option>
+          <option value="5">Envigado</option>
+        </optgroup>
+        <optgroup label="Santander">
+          <option value="6">Bucaramanga</option>
+          <option value="7">San Gil</option>
+        </optgroup>
+      </select>
+      <br><br>
+
+
+      <label for="numId">Número id</label>
+      <input id="numId" type="" name="numId"></input><br><br>
+
+      <label for="apell">Apellidos</label>
+      <input id="apell" type="text" name="apell"></input><br><br>
+
+      <label for="noms">Nombres</label>
+      <input id="noms" type="text" name="noms"></input><br><br>
+
+      <label for="gen">Género</label>
+      <input id="gen" M type="radio" name="gen"></input>Masculino
+      <input id="genF" type="radio" name="gen"></input>Femenino<br><br>
+
+      <label for="estCiv">Estado civil</label>
+      <input id="estCivSol" type="radio" name="estCiv" checked></input>Soltero
+      <input id="estCivCas" type="radio" name="estCiv"></input>Casado
+      <input id="estCivUL" type="radio" name="estCiv"></input>Unión Libre
+      <input id="estCivViudo" type="radio" name="estCiv"></input>Viudo<br><br>
+
+      <label for="tel">Número telefónico de contacto</label>
+      <input id="tel" type="" name="tel"></input><br><br>
+
+      <label for="direc">Dirección de residencia</label>
+      <input id="direc" type="text" name="direc"></input><br><br>
+
+      <label for="correo">Correo electrónico de contacto</label>
+      <input id="correo" type="" name="correo"></input><br><br>
+
+      <label for="passw">Contraseña</label>
+      <input id="passw" type="password" name="passw"></input><br><br><br>
+
+
+      <label>Qué hobbies tienes?</label><br><br>
+      <input type="checkbox" id="series" name="series">
+      <label for="series">Ver Series</label>
+      <input type="checkbox" id="jugar" name="jugar">
+      <label for="jugar">Jugar Videojuegos</label>
+      <input type="checkbox" id="deportes" name="deportes">
+      <label for="deportes">Hacer Deporte</label><br><br>
+
+
+      <label for="archivo">Sube tus archivos</label>
+      <input type="file" name="archivo"></input>
+
+    </form>
+
+</body>
+
+</html>
