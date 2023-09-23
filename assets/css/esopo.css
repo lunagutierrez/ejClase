@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  width: auto;
+  height: ;
+  margin-left: 50px;
+}
+
+.rect {
+  background-color: #269E82;
+  border: 4px dashed #FCFC34;
+  padding: 40px;
+  max-width: 850px;
+  width: 90%;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 20px
+}
+
+.image-text {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.homero {
+  font-style: italic;
+  text-decoration: underline;
+  color: #FCFC34;
+}
+
+.homero:hover {
+  color: #123456;
+}
+
+p {
+  color: white;
+  font-size: 12pt;
+  text-align: justify;
+  margin-left: -40px;
+}
+
+img {
+  max-width: 70%;
+  max-height: 100%;
+}
