@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  width: auto;
+  height: ;
+  margin-left: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:wght@300&display=swap');
+
+
+h2 {
+  color: red;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20pt;
+}
+
+#titu1 {
+  text-align: right;
+}
+
+.p1 {
+  color: blueviolet;
+  text-decoration: underline;
+  text-align: justify;
+}
+
+.p2 {
+  color: cadetblue;
+  font-style: italic;
+  font-size: 12pt;
+}
+
+.p3 {
+  color: forestgreen;
+  font-size: 18pt;
+  font-style: oblique;
+}
+
+.homero {
+  font-style: italic;
+  text-decoration: underline;
+  color: #FCFC34;
+}

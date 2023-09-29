@@ -5,25 +5,27 @@ body {
   margin-left: 50px;
 }
 
-.rect {
-  background-color: #269E82;
-  border: 4px dashed #FCFC34;
-  padding: 40px;
-  max-width: 850px;
-  width: 90%;
-}
-
-h1 {
-  color: white;
-  margin: 0;
-  margin-top: 5px;
-  margin-bottom: 20px
-}
 
 .image-text {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
+  color: white;
+  background-color: #269E82;
+  border: 4px dashed #FCFC34;
+  padding: 50px 30px;
+  width: 800px;
+  margin: 50px auto;
+}
+
+.image-text img {
+  width: 120px;
+  margin-right: 20px;
+  float: left;
+}
+
+.image-text p {
+  color: white;
+  font-size: 12pt;
+  text-align: justify;
+  margin-left: 70px;
 }
 
 .homero {
@@ -34,16 +36,4 @@ h1 {
 
 .homero:hover {
   color: #123456;
-}
-
-p {
-  color: white;
-  font-size: 12pt;
-  text-align: justify;
-  margin-left: -40px;
-}
-
-img {
-  max-width: 70%;
-  max-height: 100%;
 }
