@@ -34,12 +34,35 @@ li {
   list-style: none;
 }
 
-li:before {
+
+#ej li:before {
   display: inline-block;
   width: 20px;
   height: 20px;
   margin-right: -50px;
   background: url('https://cdn-icons-png.flaticon.com/512/1087/1087431.png') no-repeat left center;
+  background-size: contain;
+
+  content: '';
+}
+
+#hw li:before {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: -50px;
+  background: url('https://cdn-icons-png.flaticon.com/512/6975/6975888.png') no-repeat left center;
+  background-size: contain;
+
+  content: '';
+}
+
+#section3 li:before {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: -50px;
+  background: url('https://cdn-icons-png.flaticon.com/512/235/235425.png') no-repeat left center;
   background-size: contain;
 
   content: '';
