@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #f0c8c0;
+}
+
+#carouselExampleAutoplaying {
+  width: 50%;
+  margin: auto;
+}
+
+.se-col {
+  margin-top: 10% !important;
+}
+
+
+.form-container {
+  margin-top: 5%;
+  background-color: #f0c8c0;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.btn-submit, .btn-primary {
+  background-color: #f1a91b !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.btn-submit:hover, .btn-primary:hover {
+  background-color: #e85c3d !important;
+}

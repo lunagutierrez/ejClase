@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Bootstrap</title>
+
+  <link rel="icon" href="./assets/img/moon-solid.svg">
+  <link href="../../assets/css/boot.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <a href="../../index.html"> Index </a>
+  </header>
+
+
+  <nav class="navbar navbar-expand-lg">
+    <div class=" container-fluid">
+      <a href="boot_ub.html" class="navbar-brand">
+        <img width="70px" height="auto"
+          src="https://yt3.googleusercontent.com/VznHcEloSzG5S3FjZ09UZ_nIIwG7gp5c-u8SrWFwJ3fpOiu5rMEOu5kv5-GFL46K_V8bT4-5QKU=s900-c-k-c0x00ffffff-no-rj">
+      </a>
+      <a class="navbar-brand" href="#">Navegación</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../tareas/ubreB.html">Ubre Blanca</a></li>
+              <li><a class="dropdown-item" href="../tareas/chicken.html">Chicken</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="boot_ub.html">Bootstrap 1</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <ul class="nav nav-tabs" id="myTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1"
+        aria-selected="true">Sarah Lucas</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
+        aria-selected="false">Tabla</a>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="myTabsContent">
+    <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h1>Sarah Lucas</h1>
+            <img
+              src="https://static01.nyt.com/images/2015/03/29/t-magazine/29design-arena-lucas-slide-WGAI/29design-arena-lucas-slide-WGAI-tmagSF.jpg"
+              alt="Image 1">
+          </div>
+
+          <div class="col-12 col-md-6 se-col">
+            <p>Sarah Lucas es una destacada artista británica contemporánea conocida por su provocadora y a menudo
+              irreverente exploración de temas de género, sexualidad y la condición humana. Su obra abarca una variedad
+              de medios, incluyendo la escultura, la fotografía y la instalación. Lucas ha desafiado convenciones y
+              tabúes culturales al abordar cuestiones relacionadas con el cuerpo, la identidad y el deseo de una manera
+              directa y a menudo humorística. Su obra ha dejado una huella duradera en la escena artística contemporánea
+              y ha contribuido a la evolución del arte feminista. Con una carrera que abarca décadas, Sarah Lucas
+              continúa siendo una figura influyente en el mundo del arte.</p>
+
+            <a href="https://www.kurimanzutto.com/es/artistas/sarah-lucas#tab:slideshow">
+              <button class="btn btn-primary">Conoce más</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>Artista</th>
+            <th>Estilo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>Sarah Lucas</td>
+              <td>Contemporaneo</td>
+          </tr>
+          <tr>
+              <td>Koen Vanmechelen</td>
+              <td>Conceptual</td>
+          </tr>
+          <tr>
+              <td>Rirkrit Tiravanija</td>
+              <td>Instalación</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

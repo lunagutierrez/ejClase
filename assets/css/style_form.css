@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  width: auto;
+  height: ;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:wght@300&display=swap');
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+}
+
+/*comment*/
+h1 {
+  background-color: #009D7B;
+}
+
+h1 {
+  color: #0A004C;
+  font-family: 'Raleway', sans-serif;
+  font-style: oblique;
+  font-size: 1.2cm;
+  font-weight: 100;
+}
